@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+body{
+	font-family: "Berlin","Berlin Sans FB Demi", "Tahoma";
+	text-align: center;
+}
+
+#container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*TOPO DO SITE CABEÇALHO*/
+#header{
+	background-image: url("../images/banner_header10.jpg");
+	background-repeat: no-repeat;
+	height: 200px;
+}
+/*BUSCA*/
+#busca{
+	width: 400px; 
+	float: right;
+	margin-top: 5px;
+}
+#busca #txt_busca{
+	border: solid 1px #FFF;
+	font-size: 14px;
+	color: #FFF;
+	background-color: #900;
+	font-family: "Berlin","Berlin Sans FB Demi";
+}
+#busca #select_busca{
+	border: solid 1px #FFF;
+	font-size: 14px;
+	color: #FFF;
+	background-color: #900;
+	font-family: "Berlin","Berlin Sans FB Demi";
+}
+#busca #bt_busca{
+	background-color: #900;
+	color: #FFF;
+	border: solid 1px #FFF;
+	font-family: "Berlin","Berlin Sans FB Demi";
+}
+
+/*MENU*/
+#menu{
+	background-color: #900;
+	color: #FFF; 
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#menu ul{
+	padding: 5px;
+}
+#menu ul li{
+	display: inline;
+	list-style: none;
+	padding: 2px 7px;
+	margin: 20px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #FFF;
+	margin: 5px;
+	font-weight: bold;
+}
+#menu ul li a:hover{
+	background-color: #FFF;
+	color: #900;
+	margin: 0; padding: 5px;
+
+}
+
+/*MENSAGEM LOGADO*/
+#logarCliente{width: 550px;float: right;text-align: right;padding-right:5px;margin-top:5px;}
+#erroLogar{color:#F4A149;padding:0 5px;}
+#logarCliente a{text-decoration:none;color:#900;}
+
+/*MAIN*/
+#conteudo{
+	clear: both;
+	padding-top: 10px;
+}
+
+
+/*CONTEUDO SITE*/
+#conteudo{clear: both;padding-top:10px;}
+#destaques_semana{width:270px;float: left;text-align: left;}
+#destaques_semana h1{font-size:22px;}
+#pizzas_amostra{width:600px;float: right;text-align: left;}
+#pizzas_amostra h1{font-size:22px;color: #900;}
+.pizzas{width: 97px;height:150px;float:left;display:block;padding-top:15px;padding-left:20px;text-align: center;border-bottom:dotted 1px #ccc;}
+.pizzas a{text-decoration: none;color:#900;font-size:16px;}
+#fix{clear: both;}
+/*FIM CONTEUDO SITE*/
+
+/*DETALHES */
+#detalhes{text-align: left;width:800px;}
+#detalhes h1{font-size:28px;color: #900;}
+#fotoPizzaDetalhes{margin-top: 20px;width:275px;float:left;}
+#detalhesPizza{width: 505px;float: right;background-color: #F7F7F7;border: dotted 1px #ccc;padding:8px;}
+#add_pedido{width:505px;float:right;position:relative;top:20px;font-size:18px;background-color:#900;padding:8px;color:#FFF;margin-bottom:20px;}
+#add_pedido label{display:block;}
+#add_pedido #txt_qtd{width:50px;border:solid 1px #900;font-size:16px;}
+/*DETALHES*/
+
+/*EMPRESA*/
+#empresa{text-align:left;}
+#empresa h1{font-size:22px;margin-bottom:10px;color:#900;}
+#empresa p{margin-bottom:20px;}
+/*EMPRESA*/
+
+/*CADASTRO*/
+#cadastro{text-align:left;font-size:20px;padding:20px;}
+#cadastro h1{font-size:22px;margin-bottom:10px;color:#900;}
+#cadastro label{display:block;}
+#cadastro .txt{width:250px;height:25px;border:solid 1px #F4F4F4;font-size:18px;}
+span.erro {color:#900;font-size:14px;}
+#erro{background-color:#900;color:#FFF;padding:10px;margin-top:10px;}
+#sucesso{background-color:#008000;color:#FFF;padding:10px;margin-top:10px;}
+/*CADASTRO*/
+
+/*CONTATO*/
+#contato{text-align:left;font-size:20px;padding:20px;}
+#contato h1{font-size:22px;margin-bottom:10px;color:#900;}
+#contato label{display:block;}
+#contato .txt{width:250px;height:25px;border:solid 1px #F4F4F4;font-size:18px;}
+#mensagem{width: 250px;height:200px;}
+#erroPedido{background-color:#900;width:500px;padding:2px;color:#FFF;margin-top:10px;border:solid 1px #FFF;}
+/*CONTATO*/
+
+
+/*CHECKOUT*/
+#cabecalho_pedido{font-size: 18px;color:#FFF;background: #900;}
+.botaoCliente{font-family:"Berlin","Berlin Sans FB Demi"; background-color:#2B6FB6;color:#fff;padding:3px;border:solid 1px #FFF;font-size:14px;}
+.hoje{background-color: #EFEFEF;border-bottom: solid 1px #ccc; }
+.nao_hoje{background-color: #D4D0C8;border-bottom: solid 1px #ccc; }
+/*CHECKOUT*/
+
+/*AREA CLIENTE*/
+#areaCliente{text-align:left;}
+#areaCliente thead{background-color:#900;color:#FFF;}
+#areaCliente thead td{padding:5px;}
+#areaCliente tfoot{background-color:#ABC6DD;color:#333;}
+#areaCliente tfoot td{padding:5px;}
+#areaCliente .botaoCliente{font-family:"Berlin","Berlin Sans FB Demi"; background-color:#2B6FB6;color:#fff;padding:3px;border:solid 1px #FFF;font-size:14px;}
+#areaCliente a.botaoCliente {text-decoration:none;font-size:14px;}
+#areaCliente #relatorioPedidos{margin-top:20px;}
+#areaCliente #laterarDadosCliente{margin-bottom:20px;}
+#areaCliente #laterarDadosCliente a{background-color:#2B6FB6;color:#fff;border:solid 1px #FFF;font-size:20px;text-decoration:none;padding:3px;margin-top:10px;}
+#areaCliente #laterarDadosCliente a:hover{text-decoration:underline;}
+#areaCliente #dadosCliente{display:none;position:absolute;top:15%;left:30%;width:600px;background-color:#3CB371;color:#FFF;border:solid 2px #FFF;padding:10px;}
+#areaCliente #dadosCliente h1{font-size:22px;margin-bottom:10px;color:#900;}
+#areaCliente #dadosCliente label{display:block;}
+#areaCliente #dadosCliente .txt{width:250px;height:25px;border:solid 1px #F4F4F4;font-size:18px;}
+#areaCliente #dadosCliente span.erro {color:#900;font-size:14px;}
+#areaCliente #dadosCliente #erro{background-color:#900;color:#FFF;padding:10px;margin-top:10px;}
+#areaCliente #dadosCliente #sucesso{background-color:#008000;color:#FFF;padding:10px;margin-top:10px;}
+#areaCliente #sairAlterar{width:16px;float:right;}
+tfoot a{text-decoration: none;color: #900;font-size: 22px;}
+#cupom{background-color: #EFEFEF;padding:3px;border: solid 1px #ccc;margin-bottom:5px;}
+/*AREA CLIENTE*/
+
+/*PIZZAS*/
+.paginacao{clear: both;width: 800px;text-align: center;}
+.paginacao a{text-decoration: none;color: #900;font-size: 22px;}
+.listarPizzas{width: 110px;height:150px;float:left;display:block;padding-top:15px;padding-left:20px;text-align: center;border-bottom:dotted 1px #ccc;}
+.listarPizzas a{text-decoration: none;color:#900;font-size:16px;}
+#pizzasCadastradas{margin-top:10px;}
+#pizzasCadastradas h2{text-align: left;color:#900;}
+/*PIZZAS*/
+
+
+/*BUSCA*/
+#buscaPizza{text-align: left;width: 800px;}
+#buscaPizza h2{color:#900;}
+/*BUSCA*/
+
+/*RODAPÉ*/
+#footer{
+	text-align: center;
+	font-size: 12px;
+	background-color: #900;
+	color: #FFF;
+	padding: 7px;
+	margin-top: 10px;
+	clear: both;
+	font-size: 16px;
+}
