@@ -36,7 +36,7 @@ if (isset($_POST['fecharPedido'])):
             endforeach;
 
         else:
-            $erro = 'Estamos vendendo somente para o Interior de São Paulo';
+            $erro = 'Estamos vendendo somente para o João Pessoa';
         endif;
 
     else:

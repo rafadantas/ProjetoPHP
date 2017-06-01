@@ -156,14 +156,14 @@ function enviarEmail($nome, $email, $assunto, $telefone, $mensagem, $cidade) {
     $mail = new PHPMailer();
     //$mail->IsMail();
     $mail->CharSet = "UTF-8";
-    $mail->Mailer = "smtp";
+    $mail->Mailer = "localhost";
     $mail->SMTPSecure = "ssl";
     $mail->IsSMTP();
-    $mail->Host = "smtp.gmail.com";
-    $mail->Port = 465;
+    $mail->Host = "localhost";
+    $mail->Port = 25;
     $mail->SMTPAuth = true;
-    $mail->Username = "piccolo@gmail.com";
-    $mail->Password = "123";
+    $mail->Username = "";
+    $mail->Password = "";
     $mail->IsHTML(true);
 
     //EMAIL DE QUEM ESTA ENVIANDO
@@ -204,7 +204,7 @@ function verificaCep($cep) {
 
     if ($verificaCep->rowCount() == 1):
         $dados = $verificaCep->fetch(PDO::FETCH_OBJ);
-        if ($dados->nome != 'SP - INTERIOR'):
+        if ($dados->nome != 'PB - Capital'):
             return false;
         else:
             return true;

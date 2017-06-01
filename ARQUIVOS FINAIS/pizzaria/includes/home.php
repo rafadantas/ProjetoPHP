@@ -19,7 +19,7 @@
 </div><!--DESTAQUES SEMANA-->
 
 <div id="pizzas_amostra">
-<h1>Últimas pizzas cadastradas</h1>
+<h1>Pizzas Mil grau do momento</h1>
  <?php
     $dados = listar('pizzas', ' order by rand() DESC LIMIT 8');
     $d = new ArrayIterator($dados);
