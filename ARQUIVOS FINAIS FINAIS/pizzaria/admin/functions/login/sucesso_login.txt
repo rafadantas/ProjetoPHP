@@ -78,3 +78,6 @@ O administrador  logou com sucesso com o IP ::1 na data 01/06/17 12:37:24
 O administrador  logou com sucesso com o IP ::1 na data 01/06/17 02:21:41
 O administrador  logou com sucesso com o IP ::1 na data 01/06/17 03:04:16
 O administrador  logou com sucesso com o IP ::1 na data 01/06/17 02:32:57
+O administrador  logou com sucesso com o IP ::1 na data 01/06/17 04:00:41
+O administrador  logou com sucesso com o IP ::1 na data 01/06/17 04:24:48
+O administrador  logou com sucesso com o IP ::1 na data 01/06/17 06:42:26

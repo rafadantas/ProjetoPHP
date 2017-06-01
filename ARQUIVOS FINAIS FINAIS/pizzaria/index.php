@@ -71,7 +71,7 @@ endif;
 
             <div id="menu">
                 <ul>
-                    <li><a href="http://localhost/pizzaria/">Home</a></li>
+                    <li><a href="http://localhost/pizzaria/">Início</a></li>
                     <li><a href="http://localhost/pizzaria/empresa">A Empresa</a></li>
                     <li><a href="http://localhost/pizzaria/cliente">Área do cliente</a></li>
                     <li><a href="http://localhost/pizzaria/cadastro">Cadastro</a></li>
@@ -102,9 +102,9 @@ endif;
             </div><!--CONTEUDO-->
 
 
-            <!--contato@asolucoesweb.com.br-->
+        
 
-            <div id="footer">Pizzaria de Net <?php echo date("Y"); ?> - Todos direitos reservados</div><!--RODAPE-->
+            <div id="footer">O Senhor das Pizzas <?php echo date("Y"); ?> - Todos direitos reservados</div><!--RODAPE-->
         </div><!--CONTAINER-->
 
         <script type="text/javascript" src="http://localhost/pizzaria/js/jquery.js"></script>
